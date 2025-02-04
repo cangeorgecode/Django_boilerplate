@@ -1,24 +1,68 @@
+{% load static %}
 <section class="px-4 py-24 mx-auto max-w-7xl">
     <div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
       <div>
-        <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-300 md:leading-tight sm:text-left md:text-4xl">Clear overview for efficient tracking</h2>
+        <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-300 md:leading-tight sm:text-left md:text-4xl">Are you juggling a 9-to-5 job, family responsibilities, and <i>dreams</i> of launching your own side hustle?</h2>
         <p class="mb-5 text-base text-center text-gray-300 sm:text-left md:text-lg">
-          Handle your subscriptions and transactions efficiently with the clear overview in Dashboard. Features like the smart search option allow you to quickly find any data you’re looking for.
+          You're not alone. As someone who's worn all those hats myself, I know how precious your time is—and how frustrating it can be to reinvent the wheel every single project.
         </p>
-        <a href="#" class="w-full btn btn-warning btn-lg sm:w-auto">Learn More</a>
+        
       </div>
-      <div class="w-full h-full py-48 bg-gray-200"></div>
+      <div class="w-full h-full py-12">
+        <img src="{% static 'thinking.png' %}" alt="How to build an MVP quickly">
+      </div>
+    </div>
+    <div class="grid flex-col-reverse mb-24 items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+      <div class="order-none md:order-2">
+        <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-300 md:leading-tight sm:text-left md:text-4xl">That’s why I created this Django Boilerplate</h2>
+        <p class="mb-5 text-base text-center text-gray-300 sm:text-left md:text-lg">
+          A ready-to-go foundation packed with everything you need to hit the ground running:
+        </p>
+        <ul>
+          <li><p class="text-base text-center text-gray-300 sm:text-left md:text-lg">✅ User Authentication</p></li>
+          <li><p class="text-base text-center text-gray-300 sm:text-left md:text-lg">✅ Stripe Payment Integration</p></li>
+          <li><p class="text-base text-center text-gray-300 sm:text-left md:text-lg">✅ Transactional Email Support</p></li>
+          <li><p class="text-base text-center text-gray-300 sm:text-left md:text-lg">✅ Admin Dashboard</p></li>
+          <li><p class="text-base text-center text-gray-300 sm:text-left md:text-lg">✅ Modern UI Design</p></li>
+        </ul>
+        <p class="mt-5 text-base text-center text-gray-300 sm:text-left md:text-lg">
+          No fluff. No bloat. Just the essentials so you can focus on what matters most: building your business—not wrestling with code
+        </p>
+      </div>
+      <div class="w-full h-full py-12">
+        <img src="{% static 'modern_design_saas.png' %}" alt="Free Django Boilerplate to test your idea quickly">
+      </div>
+    </div>
+    <div class="grid items-center grid-cols-1 mb-24 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
+      <div>
+        <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-300 md:leading-tight sm:text-left md:text-4xl">Why This Boilerplate Is Perfect For Solopreneurs Like You:</h2>
+        <p class="mb-5 text-base text-center text-gray-300 sm:text-left md:text-lg">
+          <ul>
+            <li><p class="mb-2 text-base text-center text-gray-300 sm:text-left md:text-lg">🎯 <strong>Time-Saving</strong> : Stop wasting nights and weekends setting up boilerplate features. Get straight to the fun part—building unique features for your app.</p></li>
+            <li><p class="text-base text-center text-gray-300 sm:text-left md:text-lg">💰 <strong>Budget-Friendly</strong> : Why spend hundreds (or thousands!) on premium boilerplates when you're just testing ideas? Start small, scale smart.</p></li>
+
+
+          </ul>
+        </p>
+        
+      </div>
+      <div class="w-full h-full py-12">
+        <img src="{% static 'save_time_&_money.png' %}" alt="Free django boilerplate to help you build faster">
+      </div>
     </div>
     <div class="grid flex-col-reverse items-center grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-y-32 gap-x-10 md:gap-x-24">
       <div class="order-none md:order-2">
-        <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-300 md:leading-tight sm:text-left md:text-4xl">Decide how you integrate Payments</h2>
+        <h2 class="mb-4 text-2xl font-extrabold tracking-tight text-center text-gray-300 md:leading-tight sm:text-left md:text-4xl">Turn your dream into a reality even if you have limited time and budget</h2>
         <p class="mb-5 text-base text-center text-gray-300 sm:text-left md:text-lg">
-          Love to code? Next to our ready-made and free plugins you can use our expansive yet simple API; decide how you integrate Payments and build advanced and reliable products yourself from
-          scratch.
-        </p>
-        <a href="#" class="w-full btn btn-warning btn-lg sm:w-auto">Learn More</a>
+          <ul>
+            <li><p class="mb-2 text-base text-center text-gray-300 sm:text-left md:text-lg">🛠️ <strong>Built for Non-Stop Hustlers</strong> : Designed by a fellow solopreneur, this boilerplate understands your busy life. It’s clean, efficient, and easy to customize—even if you only have an hour after dinner.</p></li>
+            <li><p class="text-base text-center text-gray-300 sm:text-left md:text-lg">👶 <strong>Family-Friendly Flexibility</strong> : Spend less time coding and more time with loved ones. Whether it's helping with chores or playing with your soon-to-be little one, we’ve got your back.</p></li>
+
+          </ul>
       </div>
-      <div class="w-full h-full py-48 bg-gray-200"></div>
+      <div class="w-full h-full py-12">
+        <img src="{% static 'build_MVP_efficiently.png' %}" alt="Free Django Boilerplate to test your idea quickly">
+      </div>
     </div>
   </section>
   
